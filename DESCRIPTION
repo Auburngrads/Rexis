@@ -1,0 +1,21 @@
+Package: Rexis
+Type: Package
+Title: Machine Learning Technique Recommendation System
+Version: 1.0
+Date: 2020-01-13
+Author: person("Marc", "Chale", email = "marcchale@gmail.com", role=c("aut", "cre")))
+Maintainer: Marc Chale <marcchale@gmail.com>
+Description: This package allows user to predict the ranking of machine learning algorithms to perform a machine learning task on a specified dataset (with known meta-data). Requires Python 3.6.
+Imports: Rcpp (>= 1.0.3),
+         reticulate
+LinkingTo: Rcpp,
+           BH (>= 1.58.0-1),
+           RcppEigen,
+           RcppNumerical,
+           utils
+RoxygenNote: 7.0.2
+License: GPL (>=2)
+Encoding: UTF-8
+Suggests: 
+    testthat
+SystemRequirements: Python (>=3.5)
