@@ -21,7 +21,7 @@ Next, open Rexis
 library(Rexis)
 ```
 
-Now you're ready to use Rexis. Run the following code and browse to the desired data set. The Heart data set is included in the package folder "data". Type ResultsVar into your consolde to see the performance of the analysis!
+Now you're ready to use Rexis. Run the following code and browse to the desired data set. The Heart data set is included in the package folder "data". Type ResultsVar into your consolde to see the performance of the analysis!va
 
 ```{Use}
 ResultsVar <- Rexis:::execute_py()

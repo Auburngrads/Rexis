@@ -2,6 +2,7 @@
 
 export(pv)
 export(run_my_app)
+import(reticulate)
 importFrom(Rcpp,evalCpp)
 importFrom(shiny,shinyAppDir)
 importFrom(utils,View)

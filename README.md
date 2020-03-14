@@ -1,33 +1,28 @@
-Untitled
+Welcome to Rexis\!
 ================
 
-## R Markdown
+## Welcome to Rexis, the Machine Learning Technique Recommendation System\!
 
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
+To get started, install the Rexis package from the Rexis project:
 
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
-
-``` r
-summary(cars)
+``` install
+install.packages("Rexis")
 ```
 
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
+Next, open Rexis
 
-## Including Plots
+``` open
+library(Rexis)
+```
 
-You can also embed plots, for example:
+Now you’re ready to use Rexis. Run the following code and browse to the
+desired data set. The Heart data set is included in the package folder
+“data”. Type ResultsVar into your consolde to see the performance of
+the analysis\!va
 
-![](README_files/figure-gfm/pressure-1.png)<!-- -->
+``` use
+ResultsVar <- Rexis:::execute_py()
+```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
