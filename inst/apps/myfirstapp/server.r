@@ -1,16 +1,31 @@
-server <- function(input, output) {
-  
-  output$map <- renderPlot({
-    
-    map_data$value = map_data[, input$select]
-    
-    state_choropleth(map_data,
-                     title = input$select, 
-                     num_colors = input$num_colors)
+server <- function(input, output, session) {
+  dataSetInput <- eventReactive (input$file1,  {
+    infile <- input$file1
+    df <- read.csv(infile$datapath, header =  TRUE)
+    return(df)
+    })
+  dataSetPath <- eventReactive (input$file1,  {
+    infile <- input$file1
+    path <- infile$datapath
+    return(path)
   })
   
-  output$table <- DT::renderDataTable({
-    
-    map_data[order(map_data[input$select]), ]
+  output$contents <- DT::renderDataTable(dataSetInput())
+  
+  output$plot1 <- renderPlot({
+    Rexis:::rexicuteshiny(dataSetPath())
   })
-}
+  #output$plot1<-renderPlot(fig)
+  
+  }
+  # The shinyjs function call in the above app can be replaced by
+  # any of the following examples to produce similar Shiny apps
+  #onclick("rec", toggle("element"))
+  #onclick(expr = text("element", date()), id = "btn")
+  #{onclick("rec", info(date())); onclick("btn", info("Another message"), TRUE)}
+  
+  #onclick("rec", fig<-Rexis:::execute_py())
+  
+  
+  #PlotAction<-eventReactive()
+  
