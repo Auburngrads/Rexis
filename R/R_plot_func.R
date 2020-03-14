@@ -1,6 +1,6 @@
 R_plot_func <- function(out){
   #import ggplot
-  library(ggplot2)
+  #library(ggplot2)
 
 
   #Create Data Frame with plot info        

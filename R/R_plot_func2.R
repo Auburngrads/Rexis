@@ -2,8 +2,7 @@ R_plot_func <- function(out){
   #import ggplot
   library(ggplot2)
   #Read in plotly
-  library(ggthemes)
-  
+
   #Plot Bar Chart
   
   #Create Data Frame with plot info        
