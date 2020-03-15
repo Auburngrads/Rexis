@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## The Machine Learning Technique Recommendation System
 
-Rexis is an R package and Shiny application that serve as a holistic approach to the algorithm selection problem for machine learning classification problems. Rexis reads in a .csv data file with binary targets in the first column. Column headers are encouraged for ease of use. Rexis then predicts the best algirthms from its built in taxonomy of algorithms. Next, Rexis performs all recommended algorithms for the problem and reports their perforance. 
+Rexis is an R package and Shiny application that serve as a holistic approach to the algorithm selection problem for machine learning classification problems. Rexis reads in a .csv data file with binary targets in the first column. Column headers are encouraged for ease of use. Rexis then predicts the best algorithms from its built in taxonomy of algorithms. Next, Rexis performs all recommended algorithms for the problem and reports their perforance. According to research performed at the Air Force Institute of Technilogy, Rexis predicts the best algorithm in 78% of problems.
 
 
 ### Getting Started ###
