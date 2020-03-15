@@ -2,16 +2,16 @@
 % Please edit documentation in R/rexis_function.R
 \name{rexicuteshiny}
 \alias{rexicuteshiny}
-\title{rexicute Shiny}
+\title{Rexicute for Shiny}
 \usage{
 rexicuteshiny(datafile_string)
 }
 \arguments{
-\item{datafile_string}{this is a text example}
+\item{()}{there are no inputs to this function. An action button in the app will prompt user for a .csv file.}
 }
 \description{
-this is the sample description for rexicute
+This R function provides a framework to launch the Rexis R Shiny app.
 }
 \examples{
-rexicute ('C:/Users/mchale/OneDrive/Documents/AFIT/WInter 20/OPER 782 Data Science Programs/Rexis/data/heart.csv')
+rexicute()
 }
