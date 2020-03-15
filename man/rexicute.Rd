@@ -6,12 +6,10 @@
 \usage{
 rexicute(datafile_string)
 }
-\arguments{
-\item{datafile_string}{this is a text example}
-}
 \description{
-this is the sample description for rexicute
+This function allows user to employ Rexis from the R console.
 }
 \examples{
-rexicute ('C:/Users/mchale/OneDrive/Documents/AFIT/WInter 20/OPER 782 Data Science Programs/Rexis/data/heart.csv')
+rexicute()
+   A new window will allow user to select a .csv file. Navigate to Rexis/data/heart.csv
 }

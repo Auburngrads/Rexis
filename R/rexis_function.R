@@ -1,8 +1,8 @@
 #'@title rexicute 
 #'@description This function allows user to employ Rexis from the R console. 
 #' @examples rexicute()
-#'    A new window will allow user to select a .csv file. Navigate to Rexis/data/heart.csv
-#'    #'@import reticulate
+#'    A new window will allow user to select a .csv file. Navigate to "Rexis/data/heart.csv"
+#'@import reticulate
 #'@export
 #remove.packages("Rexis")
 
@@ -26,7 +26,7 @@
   #'@description This R function provides a framework to launch the Rexis R Shiny app. 
   #' @param () there are no inputs to this function. An action button in the app will prompt user for a .csv file. 
   #' @examples rexicute()
-  #'    click "browse" and navigate to Rexis/data/heart.csv
+  #'    click "browse" and navigate to "Rexis/data/heart.csv"
   #'@import reticulate
   #'@export
   #remove.packages("Rexis")
