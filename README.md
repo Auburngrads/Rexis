@@ -25,23 +25,20 @@ project:
 devtools::install_github("marcchale/Rexis", INSTALL_opts=c("--no-multiarch"))
 ```
 
-Next, open Rexis
-
-``` open
-library(Rexis)
-```
-
 Now you’re ready to use Rexis. Run the following code and browse to the
-desired data set. The Heart data set is included in the package folder
-“data”. Type ResultsVar into your consolde to see the performance of
-the analysis\!va
+desired data set. The Heart data set is one example included in the
+“data” folder. Type ResultsVar into your consolde to see the
+performance of the analysis\!
 
 ``` use
 ResultsVar <- rexecute()
 ```
 
-ResultsVar \<- rexecute(“C:/Users/mchale/OneDrive/Documents/AFIT/Winter
-20/OPER 782 Data Science Programs/Rexis”)
+If you prefer the Shiny interface, run the
+
+``` use
+run_my_app("RexisApp")
+```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
