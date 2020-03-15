@@ -14,5 +14,5 @@ This R function provides a framework to launch the Rexis R Shiny app.
 }
 \examples{
 rexicute()
-   click "browse" and navigate to Rexis/data/heart.csv
+   click "browse" and navigate to "Rexis/data/heart.csv"
 }

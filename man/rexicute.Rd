@@ -11,5 +11,5 @@ This function allows user to employ Rexis from the R console.
 }
 \examples{
 rexicute()
-   A new window will allow user to select a .csv file. Navigate to Rexis/data/heart.csv
+   A new window will allow user to select a .csv file. Navigate to "Rexis/data/heart.csv"
 }
