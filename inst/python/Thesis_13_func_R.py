@@ -405,7 +405,7 @@ def Thesis_13_func_R(filepath_str="C:/Users/mchale/OneDrive/Documents/AFIT/WInte
     print("Begin Creating Third Object", flush=True)
 
     
-diff_time=rec_obj.besttime-true_obj.besttime[0]
+    diff_time=rec_obj.besttime-true_obj.besttime[0]
     diff_recall=rec_obj.bestrecall-true_obj.bestrecall
     #correlation=rec_obj.Ranks.corrwith(true_obj.Ranks)[0] ###########spearman!!
     correlation = spearmanr(rec_obj.ranks, obs_ranks_avg)

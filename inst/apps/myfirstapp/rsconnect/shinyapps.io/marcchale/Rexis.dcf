@@ -1,0 +1,12 @@
+name: Rexis
+title: Rexis
+username:
+account: marcchale
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 1949764
+bundleId: 2882151
+url: https://marcchale.shinyapps.io/Rexis/
+when: 1584231196.09769
+asMultiple: FALSE
+asStatic: FALSE
