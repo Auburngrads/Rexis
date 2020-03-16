@@ -10,7 +10,7 @@ targets in the first column. Column headers are encouraged for ease of
 use. Rexis then predicts the best algorithms from its built in taxonomy
 of algorithms. Next, Rexis performs all recommended algorithms for the
 problem and reports their perforance. According to research performed at
-the Air Force Institute of Technilogy, Rexis predicts the best algorithm
+the Air Force Institute of Technology, Rexis predicts the best algorithm
 in 78% of problems.
 
 ### Getting Started
