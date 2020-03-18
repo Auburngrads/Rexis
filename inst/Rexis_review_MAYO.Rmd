@@ -1,0 +1,54 @@
+---
+title: "Rexis Review"
+author: "Benjamin Mayo"
+date: "March 18, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Accuracy
+    
+  - Are the results accurate?
+  
+      It appears accurate.  The changes in results were close enough to my intuition for the rough guesses I would make prior to changing the file in the app.
+      
+  - Is it clear how the results were computed?
+  
+     While you cannot see the exact mechanic in the app (which worked better for my use), the explanation on the README was clear enough that I could understand how the results were developed.
+     
+Compilation
+    
+  - Did the analytic work? (i.e. install correctly, startup
+        correctly)
+        
+There were a few issues with installing the package.  Specifically, it seemed to be incompatible with my python install. Once I worked with the Author, we found a solution.   
+        
+  - Were errors encountered when executing code according to the
+        documentation?
+        
+      The shiny app loaded correctly, however, it did require the 'panda' module.  This was not listed in the documentation.  Once this module was added, the functionality of the shiny app seemed to work correctly.  I would recommend mentioning the Python requirements in the README file up front to avoid some of these issues (particularly recommended python installs).
+      
+Ease of use
+    
+  - Is it clear how to use the analytic? (i.e. is the documentation
+        clear)
+        
+      The README was very clear on how to load the package and the GUI.  It also did a good job of providing the explanation of the purpose, methodology, and inner mechanics.  However, it did assume that the user would know exactly where the recommended 'data/heart.csv' file would be (or that it would auto-load).  This was not the case for me, but I was able to find it.  I would also recommend adding a section to the README or a Vignette that explains necessary data structure for our own data sets.
+        
+  - Are the visualizations/plots interpretable?
+  
+      There was a little bit of confusion at first, but once I reviewed the README, I was able to understand the output from the app.  I did appreciate that it provides more than just the "best" or a recommended function and allows the user to make decisions based on the output.  I also appreciated that the data was searchable, as many datasets for such an application can be large.
+      
+Final Grade
+  - Please provide a final grade
+I would recommend a grade of Excellent:
+      
+* The documentation was extensive for using the app, but would benefit from some explanations for installation issues.
+	  
+* There were some installation issues that were user error; however, I believe that if the README were more clear on python requirements, it would reduce these occurences.
+	  
+* The app worked really well once my modules were updated.
