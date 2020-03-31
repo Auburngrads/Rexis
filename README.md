@@ -58,7 +58,8 @@ R 3.6.3;
 Python 3.7
 
 Python Modules:
-Most users are able to use Rexis without implicitly installing specific Python Packages. However, if issues arise, ensure each of the following Python modules run properly on your system.
+Most users are able to use Rexis without implicitly installing specific Python Packages. However, if issues arise, ensure each of the following Python modules run properly on your system.    
+
     import pandas as pd
     import numpy as np
     import time
