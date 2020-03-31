@@ -54,7 +54,7 @@ rexicuteshiny functions in your R IDE.
     ? rexicuteshiny
 
 ### System Requirements
-R 3.6.3
+R 3.6.3;     
 Python 3.7
 
 Python Modules:
