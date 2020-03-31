@@ -16,7 +16,7 @@ in 78% of test problems.
     
 ### Getting Started
 
-To get started, install the Rexis package to R Studio from the Rexis
+To get started, install the Rexis package to RStudio from the Rexis
 project:
 
 ``` install
